@@ -1,0 +1,23 @@
+{
+    "name": "vanity-eth-cli",
+    "description": "ETH vanity address generator ",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "src/js/index.js",
+    "private": true,
+    "scripts": {
+        "//": "run like npm run vanity -- start",
+        "vanity": "node src/js/vanity.js"
+    },
+    "prettier": "@bokub/prettier-config",
+    "dependencies": {
+        "keccak": "^3.0.1",
+        "randombytes": "^2.0.6",
+        "secp256k1": "^3.8.0"
+    },
+    "devDependencies": {
+        "@bokub/prettier-config": "^1.1.0",
+        "eslint": "^6.7.2",
+        "prettier": "^2.5.1"
+    }
+}
