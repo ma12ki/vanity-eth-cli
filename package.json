@@ -6,7 +6,6 @@
     "main": "src/js/index.js",
     "private": true,
     "scripts": {
-        "//": "run like npm run vanity -- start",
         "vanity": "node src/js/vanity.js"
     },
     "prettier": "@bokub/prettier-config",
